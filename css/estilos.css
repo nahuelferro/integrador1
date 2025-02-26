@@ -1,16 +1,33 @@
-body{
-    background-color:;
+body {
+    background: linear-gradient(to right, #EFEFED, #C3B89D); 
 }
 
-img {
-    width: 10%;
-    
+div {
+    background-color: #9B9D8B;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-h1 { text-align: center; 
-    background-color: #85895D;
-    font-size: medium;
+
+#logo {
+    display: block;
+    width: 20%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ul {
+    font-size: xx-large;
+    list-style-type:circle;
+}
+
+
+h1 { 
+    text-align: center; 
     padding-top: 10px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;  
+}
+
+h2 {
+    padding-left: 10%;
 }
