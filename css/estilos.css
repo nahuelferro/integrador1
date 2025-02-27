@@ -52,3 +52,38 @@ form {
         display: flex;
         justify-content: center;
 }
+
+main  {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.productos {
+                justify-content: space-evenly;
+                display: inline-block;
+                border-radius: 50%;
+                width: 10%;
+                height: 10%;
+}
+
+p {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}	
+
+.title{
+        display:;
+        justify-content: center;
+}
+
+.comprar{
+        color: white;
+        display: flex;
+        background-color:darkolivegreen;
+        justify-content: center;
+}
+
