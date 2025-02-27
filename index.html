@@ -12,19 +12,25 @@
     
     <div>
         <h2>
-            iniciar sesion
+            iniciar sesión
         </h2>
-        
-        <label for="usuario">Usuario</label>
-        <input type="text" id="usuario" name="usuario" required>
-        <label for="contraseña">Contraseña</label>
-        <input type="password" id="contraseña" name="contraseña" required>
-        <button type="submit">Ingresar</button>
+    
+        <form id= "ingreso" action= "">
 
-            <img id="logo" src="fotos/comesano.png" alt="logo">
+            <label for="usuario">Usuario</label>
 
-           
-            
+            <input type="text" id="usuario" name="usuario" placeholder="Nombre Usuario" required>
+    
+            <label for="contraseña">Contraseña</label>
+    
+            <input  type="password" id="contraseña" name="contraseña" placeholder="contraseña" required>
+    
+            <button style=" display: block;" type="submit">Ingresar</button>
+
+        </form>
+
+        <img id="logo" src="fotos/comesano.png" alt="logo">
+
     </div>  
 
     <h1>
@@ -32,6 +38,13 @@
         Come Sano Dietetica<br>
         Un lugar en donde podes encontrar una gran variedad de productos naturales, orgánicos y sin TACC.
     </h1>
+
+    <form action="">
+        <input type="text" 
+        placeholder="Buscar productos"
+        required>
+        <button>Buscar</button> 
+    </form>
 
     <ul>    
         <li><a href="alta.html">Productos</a></li>

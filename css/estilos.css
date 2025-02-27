@@ -29,5 +29,26 @@ h1 {
 }
 
 h2 {
-    padding-left: 10%;
+    color: white;
+    display: flex;
+
+}
+
+label {
+        display: flex;
+        text-align:center;
+        margin-right: 10%;
+        color: white;
+}
+
+#ingreso {
+            display: block;
+            justify-content: center;
+    }	
+
+
+
+form {
+        display: flex;
+        justify-content: center;
 }
