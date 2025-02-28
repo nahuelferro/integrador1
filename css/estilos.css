@@ -6,7 +6,7 @@ body {
 }
 
 #footer {
-    background-image: url(../fotos/portada2.webp);
+    background-image: url(../fotos/portada.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -113,7 +113,7 @@ h3 {
 }
 
 
-.comprar{
+.comprar {
             color: white;
             background-color:darkolivegreen;
             margin-left: 40%;
