@@ -1,8 +1,8 @@
 body {
-    background: linear-gradient(to right, #EFEFED, #C3B89D); 
+        background: linear-gradient(to right, #EFEFED, #C3B89D); 
 }
 
-div {
+#footer {
     background-color: #9B9D8B;
     margin-left:auto;
     margin-right:auto;
@@ -16,10 +16,32 @@ div {
     margin-right:auto;
 }
 
-ul {
+
+#ingreso {
+    display: block;
+    justify-content: center;
+}
+
+
+h2 {
+    color: white;
+    display: flex;
+
+}
+
+
+label {
+    display: flex;
+    text-align:center;
+    margin-right: 10%;
+    color: white;
+}
+
+
+/* ul {
     font-size: xx-large;
     list-style-type:circle;
-}
+} */
 
 
 h1 { 
@@ -28,47 +50,30 @@ h1 {
     padding-bottom: 10px;  
 }
 
-h2 {
-    color: white;
-    display: flex;
-
-}
-
-label {
-        display: flex;
-        text-align:center;
-        margin-right: 10%;
-        color: white;
-}
-
-#ingreso {
-            display: block;
-            justify-content: center;
-    }	
-
-
 
 form {
         display: flex;
         justify-content: center;
 }
 
-main  {
-        display: flex;
+
+img {           
+        border-radius: 50%;
+        height: 10%;
+        width: 10%;
+}
+
+section{
+        border: solid black;
+        display: flexbox;
+        flex-wrap: nowrap;
+        justify-content: space-between;
         margin-top: 10px;
         margin-bottom: 10px;
 }
 
-.productos {
-                justify-content: space-evenly;
-                display: inline-block;
-                border-radius: 50%;
-                width: 10%;
-                height: 10%;
-}
-
 p {
-        display: flex;
+        display: block;
         justify-content: space-between;
         font-size: 20px;
         margin-top: 10px;
@@ -76,14 +81,15 @@ p {
 }	
 
 .title{
-        display:;
+        display:block;
         justify-content: center;
 }
 
 .comprar{
         color: white;
-        display: flex;
         background-color:darkolivegreen;
-        justify-content: center;
 }
+
+
+
 
