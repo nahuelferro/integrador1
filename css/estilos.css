@@ -116,11 +116,11 @@ h3 {
 .comprar {
             color: white;
             background-color:darkolivegreen;
-            margin-left: 40%;
+            margin-left: 45%;
 }
 
 
 div {
-        border: 5px double #878E63;
-        padding-bottom: 10px;
+        /* border: 5px double #878E63; */
+        padding-bottom: 20px;
 }   
