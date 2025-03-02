@@ -3,38 +3,35 @@
 
 
 body {
-        background: linear-gradient(to right, #EFEFED, #C3B89D); 
+        background: linear-gradient(to right, #868776,#878E63 );
 }
 
 
-#inicio {
-            background-image: url(../fotos/portada.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-}
-
-
-#logo {
-        display: block;
+#logo { 
         width: 350px;
         height: 350px;
+        margin-left: 40%;
+        
 }
 
 
 #ingreso {
-            border: none;
-            justify-content: right;
+                background-color:#C4B093;
+                border: none;
+                justify-content: right;
+                margin-left: 60%;
+                border-radius: 10px;
 }
 
 
 h2 {
-        margin-left: 90%;
+        background-color: #C4B093;
+        justify-content: center;
         color: black;
         display: flex;
         font-size: 2em;
-        justify-content: right;
-        justify-content: center;
-
+        margin-left: 60%;
+        border-radius: 10px;
 }
 
 
@@ -47,81 +44,90 @@ label {
 }
 
 
-ul {
-    font-size: 1.5 em;
-    list-style-type: none;
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-evenly;
+#vinculos {
+        font-size: 1.5 em;
+        list-style-type: none;
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
 }
 
 
+ul {
+        font-size: 1.5 em;
+        list-style-type: none;
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
+}
+
 li {
-    color: white;
-    text-decoration: none;
+        font-size: 1.5 em;
+        padding-bottom: 10px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
 }
 
 
 h1 { 
-    text-align: center; 
-    padding-top: 10px;
-    padding-bottom: 10px;
+        text-align: center; 
+        padding-top: 10px;
+        padding-bottom: 10px;
 }
 
 
 form {
-        
         display: flex;
         justify-content: right;
-        padding: 10px;
-        border: 5px double #878E63;
+        border: 5px double #C4B093;
+        
 }
 
 
 img {           
         border-radius: 60%;
-        height: 150px;
-        width: 150px;
-        margin-left: 38%;
-        
+        height: 120px;
+        width: 120px;
 }
 
 
 section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content:space-between;
-            padding-top: 10px;
+                flex-direction: column;
+                justify-content: space-evenly;    
+                 
+}
 
+
+.foto {
+        display: flex;
+        justify-content:space-between;
+        border: 1px solid black;
 }
 
 
 p {
-        display: flex;
-        justify-content: center;
-        font-size: 19px;
+        display: block;
+        font-size: 35px;
         font-family: "Dancing Script", cursive;
-        padding-left: 10%;
-        padding-right: 10%;
 }	
 
 
 h3 {
         display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 35px;
+        font-size: 40px;
         font-family: "Caveat", cursive;
+        justify-content: space-between;
 }
 
 
 .comprar {
-            color: white;
-            background-color:darkolivegreen;
-            margin-left: 45%;
+                color: white;
+                background-color:darkolivegreen;
 }
 
 
-div {
-        padding-bottom: 20px;
-}   
+#subir {
+        background-color: #418B98;
+        margin-left: 50%;
+}
