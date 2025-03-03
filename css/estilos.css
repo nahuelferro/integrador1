@@ -127,7 +127,34 @@ h3 {
 }
 
 
+footer {
+        background-color: #1B483E;
+        margin-top: 10px;
+}
+
+
 #subir {
-        background-color: #418B98;
-        margin-left: 50%;
+        background-color: gray;
+        /* margin-left: 50%; */
+        font-size: larger;
+        border:inset black;
+        margin-bottom: 10px;
+}
+
+
+#ig {
+        width: 25px;
+        height: 25px;
+        border-radius: 0;
+}
+
+
+#instagram {
+                border:none;
+                background-color:#1B483E;
+                /* margin-left: 1786px; */
+                margin-left: 50%;
+                margin-top: 10px;
+                
+                
 }
