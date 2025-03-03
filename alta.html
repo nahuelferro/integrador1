@@ -1,27 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Alta de Producto</title>
 </head>
 <body>
-    nombre 
-    precio
-    stock
-    marca
-    categoria
-    descripcion larga
-    envio sin cargo
-    edad desde
-    edad hasta 
-    foto
+    <h2>Formulario de Alta de Producto</h2>
+    <form action="procesar_alta.php" method="POST" enctype="multipart/form-data">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio" step="0.01" required>
+        <br><br>
+
+        <label for="stock">Stock:</label>
+        <input type="number" id="stock" name="stock" required>
+        <br><br>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required>
+        <br><br>
+
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria">
+            <option value="aceite">Aceites</option>
+            <option value="frutos secos">Frutos Secos</option>
+            <option value="sal">Sales</option>
+            <option value="especias">Especias</option>
+            <option value="cookies">Cookies</option>
+            <option value="cereal">Cereales</option>
+            <option value="sin tacc">Sin Tacc</option>
+            <option value="galletas">Galletas</option>
+            <option value="harina">Harinas</option>
+            <option value="condimentos">Condimentos</option>
+            <option value="otro">Otros</option>
+        </select>
+        <br><br>
+
+        <label for="descripcion_corta">Descripción Corta:</label>
+        <input type="text" id="descripcion_corta" name="descripcion_corta" required>
+        <br><br>
+
+        <label for="descripcion_larga">Descripción Larga:</label>
+        <textarea id="descripcion_larga" name="descripcion_larga" rows="4" required></textarea>
+        <br><br>
+
+        <label for="envio">Envío sin cargo:</label>
+        <input type="checkbox" id="envio" name="envio">
+        <br><br>
+
+        <label for="edad_desde">Edad Desde:</label>
+        <input type="number" id="edad_desde" name="edad_desde">
+        <br><br>
+
+        <label for="edad_hasta">Edad Hasta:</label>
+        <input type="number" id="edad_hasta" name="edad_hasta">
+        <br><br>
+
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto" accept="image/*">
+        <br><br>
+
+        <button type="submit">Enviar</button>
 
 
+        
     <footer>
-        <button><a href="index.html"> <img  src="fotos/comesano.png" alt="logo"> </a></button>
+        <button><a href="index.html"> Pagina Principal </a></button>
+        <!-- <button><a href="index.html"> <img  src="fotos/Come Sano2.png" alt="logo"> </a></button> -->
     </footer>
-    
+    </form>
 </body>
-</html>
+</html
