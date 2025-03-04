@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alta de Producto</title>
+    <link rel="stylesheet" href="css/estilos_alta.css">
 </head>
 <body>
     <h2>Formulario de Alta de Producto</h2>
+
+
+    <a href="index.html"> <img id="logo" src="fotos/comesano.png" alt="logo"> </a>
+
+
     <form action="procesar_alta.php" method="POST" enctype="multipart/form-data">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
@@ -40,6 +46,7 @@
         </select>
         <br><br>
 
+
         <label for="descripcion_corta">Descripción Corta:</label>
         <input type="text" id="descripcion_corta" name="descripcion_corta" required>
         <br><br>
@@ -51,7 +58,7 @@
         <label for="envio">Envío sin cargo:</label>
         <input type="checkbox" id="envio" name="envio">
         <br><br>
-
+        
         <label for="edad_desde">Edad Desde:</label>
         <input type="number" id="edad_desde" name="edad_desde">
         <br><br>
@@ -69,8 +76,15 @@
 
         
     <footer>
-        <button><a href="index.html"> Pagina Principal </a></button>
-        <!-- <button><a href="index.html"> <img  src="fotos/Come Sano2.png" alt="logo"> </a></button> -->
+        <h3>
+            Tu Almacén Natural, para un estilo de Vida saludable. Horario: Lun a Sab de 8 a 20 Hs La Plata / Ringuelet / Villa Elisa
+        </h3>
+        <h4>
+            Nuestras redes sociales:
+        </h4>
+        <button id="instagram"><a href="https://www.instagram.com/comesanolaplata?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img id="ig"  src="fotos/ig.png" alt="ig"></a> </button>
+        <button id="subir"><a href="alta.html">subir</a></button>
+
     </footer>
     </form>
 </body>

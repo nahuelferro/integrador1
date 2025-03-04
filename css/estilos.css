@@ -95,7 +95,6 @@ img {
 section {
                 flex-direction: column;
                 justify-content: space-evenly;    
-                 
 }
 
 
@@ -117,7 +116,7 @@ h3 {
         display: flex;
         font-size: 40px;
         font-family: "Caveat", cursive;
-        justify-content: space-between;
+        justify-content: center;
 }
 
 
@@ -128,17 +127,18 @@ h3 {
 
 
 footer {
-        background-color: #1B483E;
+        background-color: black;
         margin-top: 10px;
+        color: white;
+        
 }
 
 
 #subir {
         background-color: gray;
-        /* margin-left: 50%; */
         font-size: larger;
         border:inset black;
-        margin-bottom: 10px;
+        margin-left: 96.8%;
 }
 
 
@@ -149,12 +149,17 @@ footer {
 }
 
 
+
 #instagram {
-                border:none;
-                background-color:#1B483E;
-                /* margin-left: 1786px; */
-                margin-left: 50%;
-                margin-top: 10px;
-                
-                
+        display: flex;
+        margin-left: 45%;
+}
+
+
+h4 {
+        display: flex;
+        color: white;
+        justify-content: center;
+        font-family: "Caveat", cursive;
+        font-size: 1.5em;        
 }
