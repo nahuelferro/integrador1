@@ -11,7 +11,7 @@ body {
         width: 350px;
         height: 350px;
         margin-left: 40%;
-        
+        background-color: black;
 }
 
 
@@ -135,10 +135,10 @@ footer {
 
 
 #subir {
-        background-color: gray;
-        font-size: larger;
+        background-color: white;
+        font-size: 1em;
         border:inset black;
-        margin-left: 96.8%;
+        margin-left: 50%;
 }
 
 

@@ -1,15 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Sobre Nosotros</title>
     <link rel="stylesheet" href="css/estilos_alta.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <header>
+        <h1>Bienvenidos a Come Sano</h1>
+    </header>
+
+    <nav>
+        <a href="#quienes-somos">Quiénes somos</a>
+        <a href="#mision">Misión</a>
+        <a href="#vision">Visión</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <!-- Sección "Quiénes somos" -->
+        <section id="quienes-somos">
+            <h2>Quiénes somos</h2>
+            <p>En <strong>Empresa XYZ</strong>, somos líderes en el sector de la tecnología, ofreciendo soluciones innovadoras y de alta calidad a nuestros clientes. Fundada en 2000, nuestra misión es transformar el futuro de las empresas a través de la implementación de tecnología avanzada y servicios personalizados.</p>
+        </section>
+
+        <!-- Sección "Misión" -->
+        <section id="mision">
+            <h2>Nuestra Misión</h2>
+            <p>Nuestra misión es proporcionar a las empresas herramientas tecnológicas que les permitan mejorar su eficiencia operativa y obtener una ventaja competitiva en el mercado. Nos comprometemos a ofrecer un servicio excepcional y soluciones que realmente marquen la diferencia.</p>
+        </section>
+
+        <!-- Sección "Visión" -->
+        <section id="vision">
+            <h2>Nuestra Visión</h2>
+            <p>Ser reconocidos a nivel mundial como la empresa líder en innovación tecnológica y como el socio estratégico preferido por las empresas que buscan crecer y evolucionar en un mundo cada vez más digital.</p>
+        </section>
+
+        <!-- Sección "Contacto" -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o te gustaría saber más sobre nuestros productos y servicios? ¡Estamos aquí para ayudarte!</p>
+            <p>Puedes ponerte en contacto con nosotros a través del siguiente formulario o visitarnos en nuestra oficina.</p>
+            <ul>
+                <li>Email: contacto@empresaxyz.com</li>
+                <li>Teléfono: +123 456 789</li>
+                <li>Dirección: Calle Ejemplo, 123, Ciudad, País</li>
+            </ul>
+        </section>
+    </div>
+
     <footer>
-        <button><a href="index.html"> <img src="fotos/Come Sano2.png" alt="logo"> </a></button>
+        <p>&copy; 2025 Empresa XYZ. Todos los derechos reservados.</p>
+        <button id="index"><a href="index.html">Inicio</a></button>
     </footer>
+
 </body>
 </html>
